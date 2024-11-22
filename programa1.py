@@ -10,4 +10,4 @@ if num>=0:
     factorial = 1
     for i in range(1, num + 1):
         factorial *= i
-    print(f"El factorial del {num} es: {factorial}")
+    print(f"El factorial del {num} es: {factorial}") 
