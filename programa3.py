@@ -23,7 +23,21 @@ for i in range(5):
 print(acumulador)
 
 '''
+suma = 0
 contador = 0
-for i in range(5):
-    contador = contador + 1
-print(contador)
+
+while True:
+    numero = int(input("Introduce un número (0 para terminar): "))
+    
+    if numero == 0:
+        break
+    
+    suma += numero
+    contador += 1
+
+if contador > 0:
+    media = suma / contador
+    print(f"Suma total: {suma}")
+    print(f"Media: {media}")
+else:
+    print("No se introdujeron números.")
